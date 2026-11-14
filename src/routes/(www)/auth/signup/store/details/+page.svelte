@@ -16,7 +16,7 @@
 	let firstName = $state(IS_DEV ? 'Ayush' : '')
 	let lastName = $state(IS_DEV ? 'Behera' : '')
 	let email = $state(IS_DEV ? 'hi1@litekart.in' : '')
-	let phone = $state(IS_DEV ? '+918249028220' : '')
+	let phone = $state('')
 	let password = $state(IS_DEV ? 'litekart' : '')
 	let confirmPassword = $state(IS_DEV ? 'litekart' : '')
 	let isLoading = $state(false)
